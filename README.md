@@ -23,8 +23,8 @@ Conduct a TCP SYN scan on the local network to identify live hosts, open ports, 
 ## 🚀 Scan Commands Used
 
 ### 🔸 Basic TCP SYN Scan:
-```bash
-nmap -sS 192.168.1.0/24 -oN scan_results.txt
+nmap -T4 -F --open -oN scan_result.txt 192.168.1.10
+
 
 
 📂 Files Included in This Submission
