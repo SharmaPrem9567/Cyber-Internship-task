@@ -1,0 +1,39 @@
+# Nmap 7.94SVN scan initiated Mon Aug  4 13:05:15 2025 as: nmap -T4 -F --open -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.012s latency).
+Not shown: 97 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+
+Nmap scan report for 192.168.1.18
+Host is up (0.00073s latency).
+Not shown: 97 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 192.168.1.25
+Host is up (0.052s latency).
+Not shown: 99 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+
+Nmap scan report for 192.168.1.33
+Host is up (0.023s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+
+Nmap scan report for 192.168.1.53
+Host is up (0.019s latency).
+Not shown: 99 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+
+# Nmap done at Mon Aug  4 13:06:13 2025 -- 256 IP addresses (32 hosts up) scanned in 58.23 seconds
